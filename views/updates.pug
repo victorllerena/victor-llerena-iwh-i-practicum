@@ -1,21 +1,21 @@
-//- doctype html
-//- html 
-//-     head 
-//-         title= `${title}`
-//-         meta(name="viewport" content="width=device-width, initial-scale=1")
-//-         link(rel="stylesheet", href="/css/style.css")
-//-     body    
-//-         h1 Update Custom Object
-//-         a(href='/') Return to the homepage
-//-         form(role='form' method='POST' action='/update-cobj')
-//-             div.form-group
-//-                 label(for='name') Name:
-//-                 input#name.form-control(type='text', name='name')
-//-             div.form-group
-//-                 label(for='genres') Genres:
-//-                 input#name.form-control(type='text', name='genres')
-//-             div.form-group
-//-                 label(for='platforms') Platforms:
-//-                 input#name.form-control(type='text', name='platforms')
-//-             button.btn-register(type="submit") Register
-//-             button.btn-reset(type="reset") Reset
+doctype html
+html 
+    head 
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body    
+        h1 Update Custom Object
+        a(href='/') Return to the homepage
+        form(role='form' method='POST' action='/update-cobj')
+            div.form-group
+                label(for='name') Name:
+                input#name.form-control(type='text', name='name')
+            div.form-group
+                label(for='genres') Genres:
+                input#name.form-control(type='text', name='genres')
+            div.form-group
+                label(for='platforms') Platforms:
+                input#name.form-control(type='text', name='platforms')
+            button.btn-register(type="submit") Register
+            button.btn-reset(type="reset") Reset
