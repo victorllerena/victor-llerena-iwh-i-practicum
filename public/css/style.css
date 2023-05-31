@@ -1,4 +1,4 @@
-/* body, * {
+body, * {
     margin: 0.5rem;
     padding: 0;
 }
@@ -7,7 +7,7 @@ h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-table th {
+/* table th {
     background: lightpink;
 }
 table td{
