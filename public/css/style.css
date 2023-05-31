@@ -7,14 +7,14 @@ h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-/* table th {
+table th {
     background: lightpink;
 }
 table td{
     border: 1px solid lightgray;
 }
 
-.form-wrapper {
+/* .form-wrapper {
     font-size: 18px;
     max-width: 768px;
     margin: 2rem auto;
